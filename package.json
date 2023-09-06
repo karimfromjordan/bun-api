@@ -1,17 +1,18 @@
 {
-  "name": "bun-api",
-  "module": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "bun run --watch src/index.js"
-  },
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "valibot": "^0.13.1"
-  }
+	"name": "bun-api",
+	"module": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "bun run --watch src/index.js",
+		"build": "bun build src/index.js --outdir build"
+	},
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"valibot": "^0.13.1"
+	}
 }
